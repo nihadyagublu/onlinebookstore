@@ -1,0 +1,19 @@
+.books-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-left: 7%;
+  margin-top: 4%;
+}
+
+
+@media (max-width: 480px) {
+  .books-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-right: 1%;
+    
+    margin-top: 4%;
+  }
+}

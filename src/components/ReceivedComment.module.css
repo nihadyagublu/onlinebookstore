@@ -1,0 +1,21 @@
+.postedd_comment{
+    
+    
+    border: 0.5px rgb(241, 234, 234) solid;
+    border-radius: 12px;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    padding: 0.4rem;
+    background-color: rgb(90, 101, 7);
+    color: white;
+    list-style: none;
+    position: relative;
+}
+.postedd_name_surname{
+    color: rgb(4, 249, 57);
+}
+
+
+
+
+

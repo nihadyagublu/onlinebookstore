@@ -1,0 +1,104 @@
+.backdrop{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 100%;
+    height: 100vh; 
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+
+}   
+
+
+ 
+ .modal{
+    background-color: rgb(57, 91, 57);;
+    width: 40%;
+    border: 1px solid rgb(246, 245, 245);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    overflow: hidden;
+    position: fixed;
+        top: 2vh;
+         left: 10%;
+         margin-left: 16rem;
+    
+    color: white;
+    box-shadow: 5px 5px 200px 10px rgb(18, 99, 1);
+    ;
+
+ }
+ 
+.modal h2{
+    font-style: italic;
+    margin-left: 1%;
+    font-size: large;
+}
+
+
+.modal button{
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+.modal a {
+    color: rgb(3, 59, 3);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+    .backdrop{
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+         width: 100%;
+        height: 100%; 
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.75);
+    
+    }   
+
+    .modal{
+        width: 90%;
+        border: 1px solid rgb(246, 245, 245);
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 10;
+        overflow: hidden;
+        position: fixed;
+            top: 15%;
+             left: 0;
+             height: 60%;
+             margin-left: 2.5rem;
+              padding-bottom: 27rem; 
+
+        
+        color: white;
+        box-shadow: 5px 5px 200px 10px rgb(18, 99, 1);
+        ;
+    
+     }
+
+     .modal img{
+        width: 50rem
+     }
+
+     .modal h2{
+        font-style: italic;
+        margin-left: 1%;
+        font-size: 3rem;
+    }
+    
+    .modal p {
+        font-size: 3rem;
+    }
+    .modal a {
+        
+       font-size: 2rem;
+    }
+
+}

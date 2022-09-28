@@ -1,0 +1,7 @@
+.comment_page_structure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
